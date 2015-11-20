@@ -24,12 +24,16 @@
         <activity
             android:name=".Visualizar"
             android:label="@string/title_activity_visualizar"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" >
         </activity>
         <activity
             android:name=".InfListaVisualizar"
             android:label="@string/title_activity_inf_lista_visualizar"
-            android:parentActivityName=".Visualizar">
+            android:parentActivityName=".Visualizar" >
+        </activity>
+        <activity
+            android:name=".PestanasTab"
+            android:label="@string/title_activity_pestanas_tab" >
         </activity>
     </application>
 
